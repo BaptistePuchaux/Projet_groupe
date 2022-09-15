@@ -80,6 +80,9 @@
         scroll-behavior:smooth
     }
 }
+.margin{
+    margin-top: 5px;
+}
 body{
     margin:0;
     font-family:var(--bs-body-font-family);
@@ -196,6 +199,9 @@ sub,sup{
     line-height:0;
     vertical-align:baseline
 }
+.background{
+    background-color: greenyellow;
+}
 sub{
     bottom:-.25em
 }
@@ -253,6 +259,7 @@ kbd kbd{
     width: auto;
     max-width: 900px;
     padding: 0 15px;
+    
 }
 figure{
     margin:0 0 1rem

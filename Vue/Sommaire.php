@@ -11,7 +11,7 @@
 
         <main>
             <nav class="navbar navbar-dark bg-light border-bottom">
-                <div class="container-fluid">
+                <div class="background container-fluid">
                     <a class="navbar-brand" href="../Controller/C_accueil.php">Accueil<img src="../bootstrap-icons-1.8.3/house-door.svg" height="15" width="25"/></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -41,13 +41,18 @@
 
         <div class="container">
             <footer class="py-2 my-2">
-                <ul class="nav justify-content-center border-top fixed-bottom pb-3 mb-3">
-                    <li class="nav-item"><a href="Accueil.php" class="nav-link px-2 text-muted">Accueil</a></li>
+                <ul class="background nav justify-content-center border-top fixed-bottom pb-3 mb-3" >
+                    <li class="nav-item"><a href="C_accueil.php" class="nav-link px-2 text-muted">Accueil</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Login</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">A propos de</a></li>
-                    <li class="nav-item" > <a class="nav-link disabled">&copy; 2022</a></li>
+                    <li class="nav-item"><a href="C_contact.php" class="nav-link px-2 text-muted">Contact</a></li>
+                    <li class="nav-item"><a href="C_apropos.php" class="nav-link px-2 text-muted">A propos de moi</a></li>
+                    
+
                 </ul>
+                <ul class="background nav justify-content-center fixed-bottom "><li class="nav-item" ><a class="nav-link disabled">&copy; ProjetCatia reserved inc 2022</a></li></ul>
+          
+                
+                
             </footer>
         </div>
         <script src="../styles/bootstrap.bundle.min.js"></script>
