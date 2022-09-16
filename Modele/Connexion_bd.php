@@ -2,14 +2,14 @@
 
 function connexion() {
     try {
-        $conn = new PDO('mysql:host=localhost;port=3306;dbname=livret', 'root', '');
+        $conn = new PDO('mysql:host=localhost;port=3307;dbname=livret', 'root', '');
     } catch (Exception $ex) {
         die('Erreur:' . $ex->getMessage());
     }return $conn;
 }
 
 function deconnexion() {
-    $conn = null;
+    $conn = on;
     return $conn;
 }
 

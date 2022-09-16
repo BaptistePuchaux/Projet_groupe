@@ -80,6 +80,9 @@
         scroll-behavior:smooth
     }
 }
+.margin{
+    margin-top: 5px;
+}
 body{
     margin:0;
     font-family:var(--bs-body-font-family);
@@ -196,6 +199,9 @@ sub,sup{
     line-height:0;
     vertical-align:baseline
 }
+.background{
+    background-color: greenyellow;
+}
 sub{
     bottom:-.25em
 }
@@ -253,6 +259,7 @@ kbd kbd{
     width: auto;
     max-width: 900px;
     padding: 0 15px;
+    
 }
 figure{
     margin:0 0 1rem
@@ -2229,7 +2236,7 @@ textarea.form-control-lg{
 .form-floating>.form-control-plaintext~label{
     border-width:1px 0
 }
-input[type=submit] {
+/*input[type=submit] {
     width:80px;
     background-color: #536B98;
     color: white;
@@ -2241,7 +2248,7 @@ input[type=submit] {
 input[type=submit]:hover{
     background: #0e7bc2;
     color: white;
-}
+}*/
 input[type=text], textarea {
     display: block;
     padding: 5px;
